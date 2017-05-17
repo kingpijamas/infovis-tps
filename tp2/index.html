@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.3/d3.min.js"></script>
+</head>
+
+<body>
+
+  <div>La poblacion m&aacutexima es de <span id="maxPopulation"></span> hab.</div>
+  <br/>
+  <div id="viz"></div>
+
+  <style>
+    .tooltip {
+      position: absolute;
+      text-align: center;
+      padding: 4px;
+      font: 12px sans-serif;
+      background: lightsteelblue;
+      float: right;
+      border-radius: 8px;
+      pointer-events: none;
+    }
+  </style>
+
+  <script>
+    var data;
+
+    var w = 800;
+    var h = 600;
+    var pad = 250;
+
+    var svg = d3.select("div#viz").append("svg")
+      .attr("width", w)
+      .attr("height", h);
+
+    var scale = d3.scaleLinear().domain([0, 15625084]).range([0, w - pad]);
+
+    // Define the div for the tooltip
+    var tooltip = d3.select("div#viz").append("div")
+      .attr("class", "tooltip")
+      .style("visibility", "hidden");
+
+    var tooltipProvince = tooltip.append("b")
+      .style("display", "inline-block");
+
+    var tooltipPopulation = tooltip.append("p")
+      .style("display", "inline-block")
+      .style("padding-left", "0.5em");
+
+    d3.json("datos.json", function(data) {
+      data.sort(function(d1, d2) {
+        return d3.descending(d1.poblacion, d2.poblacion);
+      });
+
+      var maxPopulation = data[0].poblacion;
+
+      d3.select("#maxPopulation").text(maxPopulation);
+
+      var chartRows = svg.selectAll("g").data(data).enter().append("g");
+
+      chartRows.append("text")
+        .attr("x", function(d, i) {
+          return scale(d.poblacion) + 1;
+        })
+        .attr("y", function(d, i) {
+          return 15 + (i * 20);
+        })
+        .text(function(d, i) {
+          return d.provincia;
+        });
+
+      chartRows.append("rect")
+        .attr("x", 0)
+        .attr("y", function(d, i) {
+          return (i * 20);
+        })
+        .attr("width", function(d, i) {
+          return scale(d.poblacion)
+        })
+        .attr("height", 18)
+        .on("mouseover", function(d) {
+          tooltip.transition()
+            .duration(200)
+            .style("visibility", "visible");
+
+          tooltipProvince.text(d.provincia);
+
+          tooltipPopulation.text(d.poblacion.toLocaleString());
+
+          tooltip.style("left", (d3.event.pageX) + "px")
+            .style("top", (d3.event.pageY - 28) + "px");
+        })
+        .on("mouseout", function(d) {
+          tooltip.transition()
+            .duration(500)
+            .style("visibility", "hidden");
+        });
+    });
+  </script>
+
+</body>
+
+</html>
