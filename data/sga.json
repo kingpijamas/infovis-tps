@@ -1,0 +1,534 @@
+[
+  {
+    "type": "sga-bad-grade-midterms",
+    "date": "2008-09-23"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2009-05-26"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2009-08-07"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2008-10-30"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2008-12-18"
+  },
+  {
+    "type": "sga-bad-grade-midterms",
+    "date": "2009-09-25"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2010-04-30"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2010-07-14"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2009-09-29"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2009-12-18"
+  },
+  {
+    "type": "sga-bad-grade-midterms",
+    "date": "2010-05-23"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2010-11-29"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2010-12-10"
+  },
+  {
+    "type": "sga-bad-grade-midterms",
+    "date": "2009-05-28"
+  },
+  {
+    "type": "sga-bad-grade-midterms",
+    "date": "2009-10-28"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2010-06-26"
+  },
+  {
+    "type": "sga-bad-grade-final",
+    "date": "2010-07-12"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2010-12-14"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2010-03-08"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2010-09-24"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2010-12-17"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2010-10-29"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2010-12-14"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2009-04-26"
+  },
+  {
+    "type": "sga-bad-grade-final",
+    "date": "2009-08-13"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2009-12-16"
+  },
+  {
+    "type": "sga-bad-grade-midterms",
+    "date": "2012-09-27"
+  },
+  {
+    "type": "sga-bad-grade-midterms",
+    "date": "2013-05-28"
+  },
+  {
+    "type": "sga-bad-grade-midterms",
+    "date": "2013-09-30"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2014-04-28"
+  },
+  {
+    "type": "sga-bad-grade-final",
+    "date": "2015-07-14"
+  },
+  {
+    "type": "sga-bad-grade-final",
+    "date": "2015-12-11"
+  },
+  {
+    "type": "sga-bad-grade-final",
+    "date": "2016-02-18"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2016-09-28"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2016-12-15"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2013-10-26"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2014-12-12"
+  },
+  {
+    "type": "sga-bad-grade-midterms",
+    "date": "2011-05-26"
+  },
+  {
+    "type": "sga-bad-grade-midterms",
+    "date": "2011-10-29"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2012-05-28"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2012-07-13"
+  },
+  {
+    "type": "sga-bad-grade-midterms",
+    "date": "2010-09-29"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2011-06-29"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2011-07-11"
+  },
+  {
+    "type": "sga-bad-grade-midterms",
+    "date": "2011-05-23"
+  },
+  {
+    "type": "sga-bad-grade-midterms",
+    "date": "2011-11-26"
+  },
+  {
+    "type": "sga-bad-grade-midterms",
+    "date": "2012-06-23"
+  },
+  {
+    "type": "sga-bad-grade-midterms",
+    "date": "2012-09-23"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2013-05-29"
+  },
+  {
+    "type": "sga-bad-grade-final",
+    "date": "2013-07-10"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2014-07-17"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2014-06-28"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2015-02-12"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2011-05-23"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2011-07-20"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2011-10-27"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2011-12-16"
+  },
+  {
+    "type": "sga-bad-grade-midterms",
+    "date": "2012-10-25"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2013-06-26"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2013-07-19"
+  },
+  {
+    "type": "sga-bad-grade-midterms",
+    "date": "2014-09-29"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2015-04-27"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2015-07-15"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2014-11-26"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2015-07-16"
+  },
+  {
+    "type": "sga-bad-grade-midterms",
+    "date": "2012-10-23"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2013-06-26"
+  },
+  {
+    "type": "sga-bad-grade-final",
+    "date": "2013-07-18"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2014-12-22"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2010-04-26"
+  },
+  {
+    "type": "sga-bad-grade-final",
+    "date": "2010-07-07"
+  },
+  {
+    "type": "sga-bad-grade-final",
+    "date": "2010-12-14"
+  },
+  {
+    "type": "sga-bad-grade-final",
+    "date": "2011-02-16"
+  },
+  {
+    "type": "sga-bad-grade-final",
+    "date": "2011-07-14"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2011-12-20"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2008-09-26"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2008-12-23"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2011-08-23"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2012-06-27"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2012-07-19"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2016-06-27"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2016-07-11"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2015-05-29"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2015-12-09"
+  },
+  {
+    "type": "sga-bad-grade-midterms",
+    "date": "2014-11-30"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2015-06-27"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2015-07-08"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2016-04-27"
+  },
+  {
+    "type": "sga-bad-grade-final",
+    "date": "2016-07-18"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2012-06-25"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2012-07-12"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2015-10-30"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2016-02-11"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2015-09-28"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2015-12-10"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2015-10-25"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2016-07-14"
+  },
+  {
+    "type": "sga-bad-grade-midterms",
+    "date": "2013-09-30"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2014-05-30"
+  },
+  {
+    "type": "sga-bad-grade-final",
+    "date": "2015-02-20"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2015-12-17"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2016-06-30"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2016-07-19"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2015-09-24"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2016-11-23"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2016-09-23"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2016-12-22"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2011-08-24"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2015-09-30"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2015-12-16"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2015-05-29"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2015-07-14"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2013-09-24"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2014-02-18"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2015-09-29"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2016-02-18"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2016-10-27"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2016-12-21"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2014-06-24"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2014-07-18"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2016-10-26"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2015-10-30"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2015-12-09"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2008-09-23"
+  },
+  {
+    "type": "sga-bad-grade-final",
+    "date": "2008-12-15"
+  },
+  {
+    "type": "sga-bad-grade-final",
+    "date": "2009-02-17"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2009-08-14"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2010-09-02"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2015-04-23"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2015-07-13"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2011-10-31"
+  },
+  {
+    "type": "sga-good-grade-midterms",
+    "date": "2008-10-24"
+  },
+  {
+    "type": "sga-good-grade-final",
+    "date": "2008-12-05"
+  }
+]

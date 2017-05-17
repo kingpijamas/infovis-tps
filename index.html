@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Infovis 2017 - TP Datos Personales | Juan Pablo Rey</title>
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" type="text/css" href="https://dc-js.github.io/dc.js/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://dc-js.github.io/dc.js/css/dc.css" />
+
+  <script src="https://dc-js.github.io/dc.js/js/d3.js"></script>
+  <script src="https://dc-js.github.io/dc.js/js/crossfilter.js"></script>
+  <script src="https://dc-js.github.io/dc.js/js/dc.js"></script>
+  <script src="js/stackedBarChart.js"></script>
+  <script src="js/table.js"></script>
+  <script src="js/util.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Infovis 2017 - TP Datos Personales</h1>
+    <div class="row">
+      <div class="span7">
+        <div id="facebook-chart"></div>
+      </div>
+      <div class="span5">
+        <div class="row">
+          <table class="table table-bordered table-striped" id="facebook-table">
+            <thead>
+              <tr class="header">
+                <th>Date</th>
+                <th>Semester</th>
+                <th>Source</th>
+                <th>Type</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        <div class="row">
+          <div id="facebook-table-controls">
+            Showing <span class="begin"></span>-<span class="end"></span> of <span class="size"></span>.
+            <input class="prev" class="btn" type="Button" value="Prev" />
+            <input class="next" class="btn" type="button" value="Next" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="span7">
+        <div id="github-chart"></div>
+      </div>
+      <div class="span5">
+        <div class="row">
+          <table class="table table-bordered table-striped" id="github-table">
+            <thead>
+              <tr class="header">
+                <th>Date</th>
+                <th>Semester</th>
+                <th>Source</th>
+                <th>Type</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        <div class="row">
+          <div id="github-table-controls">
+            Showing <span class="begin"></span>-<span class="end"></span> of <span class="size"></span>.
+            <input class="prev" class="btn" type="Button" value="Prev" />
+            <input class="next" class="btn" type="button" value="Next" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="span7">
+        <div id="grades-chart"></div>
+      </div>
+      <div class="span5">
+        <div class="row">
+          <table class="table table-bordered table-striped" id="grades-table">
+            <thead>
+              <tr class="header">
+                <th>Date</th>
+                <th>Semester</th>
+                <th>Source</th>
+                <th>Type</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        <div class="row">
+          <div id="grades-table-controls">
+            Showing <span class="begin"></span>-<span class="end"></span> of <span class="size"></span>.
+            <input class="prev" class="btn" type="Button" value="Prev" />
+            <input class="next" class="btn" type="button" value="Next" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/tp.js"></script>
+  </div>
+</body>
+
+</html>
